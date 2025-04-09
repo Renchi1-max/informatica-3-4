@@ -13,6 +13,11 @@ int minutes = 349;
 int modulus = 349%60;
 int hours = 349/60;
 printf("%d minutes is equal to %d hours and %d minutes\n",minutes,hours,modulus);
+int radio = 8;
+const float pi = 3.14159265359;
+int circleArea = pi * (radio*radio);
+printf("Area of a Circle = %d \n", circleArea);
+
 
     return 0;
 
