@@ -11,13 +11,20 @@ int main(){
     int perimeter = height+height+lenght+lenght;
     printf("Area = %d \n", area);
     printf("Perimeter = %d \n",perimeter);
+int fahrenheit;
+int celsius;
+printf("Enter the fahrenheit temperature");
+scanf("%d",&fahrenheit);
+printf("Enter the celsius temperature");
+scanf("%d" ,&celsius);
+int fahrenheit = 18;
+int celsius = (fahrenheit-32)/1.8;
+printf("%d°F = %d°C\n",fahrenheit,celsius);
 
-int farenheit = 18;
-int celsius = (farenheit-32)/1.8;
-printf("%d°F = %d°C\n",farenheit,celsius);
-scanf("%d", &farenheit);
-scanf("%d", &celsius);
-
+int minutes;
+int modulus;
+int hours;
+printf
 int minutes = 349;
 int modulus = 349%60;
 int hours = 349/60;
