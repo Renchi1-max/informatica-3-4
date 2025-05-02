@@ -14,12 +14,18 @@ int main(){
     }
     printf(" %d \n",sum);
     //Exercise 2
-    int o;
-    printf("Enter a positive number:");
-    scanf(" %d",&o);
-
-    int multiplication=1;
     
+    int s;
+    printf("Enter a positive number:");
+    scanf(" %d",&s);
+    
+    int multiplication=1;
+    int o;
+    for (o = 1; o < s + 1; ++o){
+        multiplication = multiplication *o;
+        
+    }
+    printf(" %d \n", multiplication);
 
 
 }
